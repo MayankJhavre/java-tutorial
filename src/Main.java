@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        TodoApp app = new TodoApp();
+        TodoAppImpl app = new TodoAppImpl();
         app.createTask("Task 1", "this and that");
         app.createTask("Task 2", "here n there");
         app.createTask("Task 3", "Something Something");
